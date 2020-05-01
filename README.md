@@ -11,6 +11,8 @@ Este repositório tem anotações sobre as diferenças entre Git e Github e coma
 
 ```bash
 git init # Cria um repositório local do Git e cria uma branch master
+git config --global user.name "Herley Oliveira" # configura o nome do usuário no git globalmente (em todos os repositórios do git, se quiser configurar apenas no repositório atual, então substituir o trecho "--global" por "--local" )
+git config --global user.email "herleyoliveira19@gmail.com" # configura o email do usuário no git globalmente (em todos os repositórios do git, se quiser configurar apenas no repositório atual, então substituir o trecho "--global" por "--local" )
 git clone <endereço do repositório remoto> # Faz uma cópia do repositório remoto do Git para sua máquina local
 git branch # Lista as branchs (pilhas ou ramificações) que exisem no seu repositório local
 git checkout -b <nome-da-branch> # Cria uma nova brach, cópia da branch atual
