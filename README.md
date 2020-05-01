@@ -21,4 +21,6 @@ git add <nome do arquivo ou -A para todos arquivos modificados> # Adiciona arqui
 git commit -m "descrição da alteração feita" # Cria uma nova versão dos arquivos em stage
 git push origin <nome-da-branch> # Envia cópia da branch atual para repositório remoto
 git pull origin <nome-da-branch> # Puxa uma cópia da branch que está no repositório remoto para o repo local 
+git merge <nome da branch> # tras as alterações da outra branch para branch atual 
+
 ```
