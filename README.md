@@ -24,3 +24,16 @@ git pull origin <nome-da-branch> # Puxa uma cópia da branch que está no reposi
 git merge <nome da branch> # tras as alterações da outra branch para branch atual 
 
 ```
+
+### Comandos básicos de Comunicação do github
+
+```bash
+feat: # Quando eu construo um novo recurso no meu projeto
+fix: # utilizo para correção de bug para o usuário
+docs: # Quando há algumas mudanças na documentação
+style: # é usado para formatação, vírgula faltando etc...
+refactor: # utilizo quando refatorar código de produção
+test: # utilizo quando adicionar testes ausentes, refatorar testes
+chore: # quando há atualizações nas tarefas, sem modicação de código
+
+```
